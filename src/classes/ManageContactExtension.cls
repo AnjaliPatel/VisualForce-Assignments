@@ -19,7 +19,7 @@ public class ManageContactExtension{
         return getLstAccount().size();
     }
     
-     public void performSearch(){
+    /* public void performSearch(){
          String finalString='%'+searchname+'%';
         if(searchName!=Null && (searchName.length()>=3) ){
             String queryString='select Id,Name,PersonEmail__c,Phone,Website from Account where Name LIKE :finalString';
@@ -32,7 +32,7 @@ public class ManageContactExtension{
             renderSearchWarning=true;
             renderSearchVariable=false;
         } 
-    }
+    }*/
     
     public pageReference clearSearch(){
         searchName='';
